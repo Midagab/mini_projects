@@ -1,0 +1,79 @@
+#inputField{
+    width:50%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+}
+input::placeholder{
+    font-style: italic;
+    font-size: large   ;
+    
+}
+#listContainer{
+    width: 80%;
+    padding: 20px;
+    background-color: hsl(260, 4%, 84%);
+    color: rgb(5, 5, 5);
+    margin: auto;
+}
+#addButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: hsl(251, 44%, 95%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+#addButton:hover{
+    background-color: hsl(251, 44%, 85%);
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 0;
+    background-color: hsl(251, 44%, 95%);
+}
+h2{
+    color: hsl(251, 50%, 45%);
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.container{
+    text-align: center;
+    color: wheat;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    background-color: hsl(206, 72%, 31%);
+}
+.status_container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.status{
+    color: hsl(251, 35%, 94%);
+    background-color: hsl(206, 72%, 31%);
+    font-weight: bold;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+body{
+    background-color: hsl(251, 44%, 95%);
+}
+li button{
+    background-color: hsl(251, 44%, 95%);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 0;
+}

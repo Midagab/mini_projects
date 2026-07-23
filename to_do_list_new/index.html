@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My to-do list</h1>
+        <input type="text" id="inputField" placeholder="Enter a task" required>
+        <button id="addButton">Add</button>
+
+        <div id="listContainer">
+            <h2>Tasks</h2>
+            <div class="status_container">
+                <div class="status">
+                    <h3>Completed tasks</h3>
+                    <p id="completed"></p>
+                </div>
+                <div class="status">
+                    <h3>Incomplete tasks</h3>
+                    <p id="incomplete"></p>
+                </div>
+                <div class="status">
+                    <h3>Total tasks</h3>
+                    <p id="total"></p>
+                </div>
+            </div>
+            <ul id="list">
+            </ul>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
