@@ -1,0 +1,63 @@
+html{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 247, 252);
+    align-items: center;
+    width: 70%;
+    margin:auto;
+    border-radius: 20px;
+    height: 100vh;
+    box-shadow: 5px 5px 10px black;
+
+}
+label{
+    
+    display:block;
+    margin:10px;
+    font-size: 1.2rem;
+}
+.toggle-password-label{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 10px;
+    height:2rem;
+}
+#password{
+    width: 15rem;
+    border: 1px solid black;
+}
+#email{
+    width: 15rem;
+    border: 1px solid black;
+}
+#password:focus{
+    outline: none;
+    border: 2px solid blueviolet;
+}
+#email:focus{
+    outline: none;
+    border: 2px solid blueviolet;
+}
+.btn{
+    display:block;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    height: 2rem;
+    width: 5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(121, 57, 181);
+}
+
+
